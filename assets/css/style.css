@@ -2,7 +2,7 @@
 
 /*
 Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
+
 */
 /* ==========================================================================
    Author's custom styles
@@ -67,6 +67,13 @@ a span {
     -webkit-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
+}
+.navbar-brand .logo{
+    height: 100px;
+
+
+
+
 }
 a{
     font-family: 'Montserrat', sans-serif;
@@ -1369,7 +1376,8 @@ button.btn-md:hover {
 /*contact section css*/
 .contact{
     background: url(../images/contactbg.png) no-repeat center center;
-    background-size: cover;
+    
+    background-size: auto;
 }
 
 .contact .single_contact_info{
@@ -1466,8 +1474,14 @@ button.btn-md:hover {
 }
 
 .footer_logo{
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    top: 1;
+    margin: auto;
+    height: 50px;
+    width:200px;
+    
 }
+
 
 .single_widget li.single_latest_news{
     margin-bottom: 20px;

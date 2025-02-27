@@ -195,5 +195,37 @@ $(document).on("scroll", function () {
     }
 });
 
+/* automação da contagem*/
+
+document.addEventListener("DOMContentLoaded", function () {
+    function startCounter(counter) {
+        let target = parseInt(counter.innerText);  // Obtém o número de destino
+        let count = 0 ;
+        let speed = Math.floor(target / 100); // Define a velocidade da animação
+
+        let interval = setInterval(() => {
+            count += speed;
+            if (count >= target) {
+                count = target;
+                clearInterval(interval); // Para a contagem quando atingir o valor
+            }
+            counter.innerText = count; // Atualiza o número na tela
+        }, 20); // Ajuste a velocidade do incremento
+    }
+
+    function checkScroll() {
+        let counters = document.querySelectorAll(".statistic-counter");
+        let windowHeight = window.innerHeight;
+
+        counters.forEach(counter => {
+            let position = counter.getBoundingClientRect().top;
+            if (position < windowHeight - 100) { // Inicia a contagem quando o contador aparecer na tela
+                startCounter(counter);
+            }
+        });
+    }
+
+    window.addEventListener("scroll", checkScroll); // Escuta o evento de rolagem
+});
 
 
