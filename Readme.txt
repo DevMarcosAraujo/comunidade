@@ -1,36 +1,43 @@
-== Theme Name: Logic - Free Html5 Multipurpose Business Template
+README da landing page da Comunidade Santa Dulce dos pobres, podemos seguir um formato que apresente de forma clara o propósito, funcionalidades e como utilizar o projeto. Aqui vai um exemplo que você pode adaptar:
 
-== Copyright (c) 2016 BootstrapThemes.co
+Comunidade Santa Dulce Pobres- Landing Page
+Este projeto é uma landing page criada para a Comunidade Santa Dulce dos Pobres, com o objetivo de divulgar informações e conectar a comunidade com as atividades, eventos e iniciativas locais.
 
-== http://BootstrapThemes.co
+📋 Descrição
+A landing page tem como propósito apresentar de forma simples e acessível os principais eventos, notícias e informações sobre a comunidade Santa Dulce dos Pobres, promovendo o engajamento e a participação dos moradores e colaboradores.
 
+🌟 Funcionalidades
+Informações sobre a Comunidade: Uma seção dedicada para apresentar a história e os valores da Comunidade Santa Dulce dos Pobres.
+Eventos e Atividades: Um calendário com os eventos futuros e informações sobre atividades culturais, educacionais e sociais.
+Formulários de Contato e Inscrição: Facilita a comunicação com os organizadores de eventos e a inscrição para atividades.
+Notícias e Atualizações: Seção com notícias e atualizações sobre projetos da comunidade.
+⚙️ Tecnologias Utilizadas
+HTML
+CSS
+JavaScript (opcional, para funcionalidades dinâmicas)
+Frameworks (se utilizar algum, como Bootstrap ou outros)
+🚀 Como Rodar o Projeto
+Clone este repositório:
 
+bash
+Copiar
+Editar
+git clone https://github.com/DevMarcosAraujo/comunidade.git
+Acesse o diretório do projeto:
 
-Html Created by: http://bootstrapthemes.co
+bash
+Copiar
+Editar
+cd projeto-santa-dulce
+Abra o arquivo index.html em seu navegador para visualizar a landing page.
 
+💡 Contribuindo
+Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga estas etapas:
 
-
-Psd Created by: --Arifuzzaman Sajib-- https://www.behance.net/gallery/31881449/Free-Multipurpose-Business-PSD-Template
-
-
-Rights: 
-You are permitted to use the resources for any number of personal and commercial projects.
-You may modify the resources according to your requirements and include them into works, 
-such as websites, applications or other materials intended for sale. No attribution or 
-link back to this site is required, however any credit will be much appreciated.
-
-
-Prohibitions:
-You do not have the rights to redistribute, resell, lease, license, sublicense or offer 
-files downloaded from http://bootstrapthemes.co to any third party �as is� or as a separate attachment 
-from any of your work. If you wish to promote my resources on your site, you must link back 
-to the resource page where users can find the download and not directly to the download file.
-
-
-
-If you would like to share one of my resources, you can do so by making a link to the specific 
-resource on http://bootstrapthemes.co , you can if you wish insert the embed code for the product previews images to illustrate your link. 
-No HOTLINKING is allowed i.e. you cannot make a direct link to the download or/and the images hosted on http://bootstrapthemes.co
-
-Concerning blog posts, you are free to link to it from any website, 
-but you cannot however publish it as it is, without prior consent from http://bootstrapthemes.co
+Faça um fork deste repositório.
+Crie uma nova branch (git checkout -b ...).
+Comite suas mudanças (git commit -am '...').
+Faça o push para a branch (git push origin ...).
+Envie um Pull Request para revisão.
+📞 Contato
+Se tiver alguma dúvida ou sugestão, entre em contato com a equipe da Comunidade Santa Dulce através do e-mail: contato@santadulce.com.br 
