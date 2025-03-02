@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.content-primario{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+
+    
+}
+.First-content{
+    display: flex;
+}
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 40%;
+    height: 100%;
+    
+}
+.social-media{
+    text-align: center;
+}
+.first-column{
+    z-index: 10;
+    text-align: center;
+    flex: 1 0 auto;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primeira{
+    color: #ffff;
+}
+.title-segundo{
+    color: #58af9b;
+    font-size: 35px;
+}
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primeiro{
+    color: #ffff;
+}
+.description-segundo{
+    color: #7f8c8d;
+}
+.second-column{
+    text-align: center;
+    flex: 2 0 auto;
+    flex-direction: column;
+    align-items: center;  
+    display: flex;  
+}
+.list-social-midia {
+       display: flex;
+       justify-content: center;
+       list-style-type:none;
+
+}
+.item-social-midia{
+    color: #95a5a6;
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px ;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.form input{
+    height: 40px;
+    border: none;
+    flex-direction: column;
+    margin: 8px;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 15px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.btn-primeiro{
+    background-color: transparent;
+    border: 1px solid #ffff;
+    
+}
+.btn-primeiro:hover{
+    background-color: #ffff;
+    color: #58af9b;
+}
+.content-segundario{
+    position: absolute;
+    display: none;
+
+}
